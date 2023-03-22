@@ -4,7 +4,9 @@ let surname = prompt('What is your surname?');
 
 let FavoriteColor = prompt('What is your favorite color?');
 
-document.writeln("<p>Ehi ciao " + name + " " + surname + ". Lo sai che per te una pessima password potrebbe essere " + name + surname + FavoriteColor + "? Ti garba?</p>");
+let BooleanNumber = 21
+
+document.writeln("<p>Ehi ciao " + name + " " + surname + BooleanNumber + ". Lo sai che per te una pessima password potrebbe essere " + name + surname + FavoriteColor + "? Ti garba?</p>");
 
 
 
